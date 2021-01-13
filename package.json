@@ -1,0 +1,18 @@
+{
+  "name": "pos-system-frontend",
+  "version": "1.0.0",
+  "description": "A simple Point of Sales system UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Irushi Salwathura",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.13"
+  },
+  "dependencies": {
+    "admin-lte": "^3.0.5",
+    "sweetalert2": "^10.8.1"
+  }
+}

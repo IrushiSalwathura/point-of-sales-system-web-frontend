@@ -1,0 +1,49 @@
+#tbl-orders{
+
+  tbody tr{
+    cursor: pointer;
+  }
+  tr td, tr th{
+    &:first-child{
+      width: 75px;
+      text-align: center;
+    }
+    &:last-child{
+      width:50px;
+      text-align: center;
+
+      &:hover{
+        color:red;
+      }
+    }
+  }
+}
+#tbl-card{
+  padding-bottom: 20px;
+  .card-body{
+    height: 451.667px;
+    overflow-y: scroll;
+  }
+
+}
+
+.card-body{
+  padding: 10px !important;
+  width: 980px;
+}
+
+.tooltip-inner{
+  max-width: none;
+  background-color: #d23030;
+}
+
+.selected-row{
+  background-color: #b3b3b3 !important;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9f9f9+0,007bff+100 */
+  background: rgb(249,249,249); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(249,249,249,1) 0%, rgba(0,123,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(0,123,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(249,249,249,1) 0%,rgba(0,123,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#007bff',GradientType=0 ); /* IE6-9 */
+
+}
